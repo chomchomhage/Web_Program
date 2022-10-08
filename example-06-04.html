@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>do~while과 break 사용</title>
+</head>
+<body>
+    <script>
+        document.write("<h3> 암호를 입력하세요.</h3>");
+        document.write("<hr>");
+        do
+        {
+            let pw = prompt("암호를 입력하세요","");
+            if(pw == 'you') break;
+        }
+        while(true);
+        document.write("통과입니다.");
+    </script>
+</body>
+</html>
